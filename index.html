@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Word Search</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>BASIC WORD SEARCH</h1>
+    <h2>Words for today:</h2>
+    <ul>
+      <li>GATO</li>
+      <li>PERRO</li>
+      <li>MESA</li>
+      <li>SOPA</li>
+    </ul>
+    <table id="sopadeletras">
+      <tr>
+        <td class="palabra palabra1" id="P1G">G</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="palabra palabra1" id="P1A">A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="palabra palabra1" id="P1T">T</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="palabra palabra1" id="P1O">O</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="palabra palabra4" id="P4S">S</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="palabra palabra2" id="P2P">P</td>
+        <td class="palabra palabra2" id="P2E">E</td>
+        <td class="palabra palabra2" id="P2R1">R</td>
+        <td class="palabra palabra2" id="P2R2">R</td>
+        <td class="palabra palabra2" id="P2O">O</td>
+        <td class="palabra palabra4" id="P4O">O</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="palabra palabra4" id="P4P">P</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="palabra palabra4" id="P4A">A</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="palabra palabra3" id="P3M">M</td>
+        <td class="palabra palabra3" id="P3E">E</td>
+        <td class="palabra palabra3" id="P3S">S</td>
+        <td class="palabra palabra3" id="P3A">A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <section>
+      <button onclick="window.location.reload()" style="background-color: palevioletred;">RELOAD</button>
+      <button onclick="solveOne()" style="background-color: palegoldenrod">SOL W1</button>
+      <button onclick="solveTwo()" style="background-color: palegoldenrod">SOL W2</button>
+      <button onclick="solveThree()" style="background-color: palegoldenrod">SOL W3</button>
+      <button onclick="solveFour()" style="background-color: palegoldenrod">SOL W4</button>
+
+  </section>
+  </body>
+</html>
