@@ -3,6 +3,10 @@ let win = false;
 let solucionado = false;
 let errores = 0;
 let palabras = ["GATO", "PERRO", "MESA", "SOPA"];
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function yest() {
   for (let j of document.querySelectorAll("td")) {
     j.className = "seleccionado";
@@ -222,5 +226,17 @@ function solveFour() {
   document.getElementById("P4O").style.backgroundColor="yellowgreen";
   document.getElementById("P4P").style.backgroundColor="yellowgreen";
   document.getElementById("P4A").style.backgroundColor="yellowgreen";
+  contador=0;
+}
+function azar() {
+  let rand=getRandomInt(110);
+  for (let i of document.querySelectorAll("td")) {
+    if(i.className=="palabra"){
+      i.className="";
+    }
+  }
+  for (let i = 0; i < rand; i++) {
+    document.querySelectorAll("td")[getRandomInt(110)].click();
+  }
   contador=0;
 }
