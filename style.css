@@ -5,6 +5,10 @@ body {
   border: solid 2px black;
   margin: auto;
   border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  max-width: 500px;
+
 }
 h2{
   text-align: center;
@@ -44,7 +48,7 @@ h1 {
   letter-spacing: 5px;
 }
 td {
-  padding: 20px;
+  padding: 2%;
   border: solid 2px black;
 }
 .seleccionado{
