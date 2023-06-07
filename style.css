@@ -1,62 +1,77 @@
-body {
-  font-family: sans-serif;
+body{
+    margin: auto;
+    font-family: sans-serif;
+    background-color: aliceblue;
 }
-#sopadeletras {
-  border: solid 2px black;
-  margin: auto;
-  border-collapse: collapse;
-  width: 100%;
-  text-align: center;
-  max-width: 500px;
+.cuerpo-calculadora{
+    background-color: dimgray;
+    max-width: 300px;
+    margin: auto;
+    padding: 30px;
+    
+    border-radius: 20px;
+}
+header{
+    text-align: center;
+    width: 100%;
+}
+code{
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    margin-top: 15vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    letter-spacing: 5px;
+    
 
 }
-h2{
-  text-align: center;
+.ult, .limpiar{
+    width: 97px;
 }
-section{
-  text-align: center;
+.operacion{
+    background-color: darkgreen;
 }
-section button{
-  padding: 15px;
-  margin: 10px; 
-  width: 100px;
-  border-radius: 10px;
+.operacion:hover{
+    background-color: green;
 }
-ul{
-  margin: auto;
-  padding-left: 0px;
-  text-align: center;
-  margin-bottom: 20px;
+.limpiar{
+    background-color: darkred;
 }
-li{
-  display: inline;
-  padding: 10px;
-  font-weight: bold;
+.limpiar:hover{
+    background-color: red;
 }
-.solved{
-  text-align: center;
-  padding: 20px;
-  font-weight: bold;
+#typear{
+    background-color: dimgray;
+    border: 0px;
+    padding: 0px;
+    width: 283px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 40px;
+    text-align: right;
+
 }
-li:hover{
-  color: green;
+input{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 10px; 
+    min-width: 60px;
+    background-color: grey;
 }
-h1 {
-  font-size: 9vh;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  letter-spacing: 5px;
+input:hover{
+    background-color: darkgrey;
 }
-td {
-  padding: 2%;
-  border: solid 2px black;
+
+
+td{
+    display: inline-flex;
 }
-.seleccionado{
-  background-color: green;
-}
-.error{
-  background-color: red;
-}
-.buscando{
-  background-color: yellow;
-}
+
