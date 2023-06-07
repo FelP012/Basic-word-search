@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+}
+#sopadeletras {
+  border: solid 2px black;
+  margin: auto;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  max-width: 500px;
+
+}
+h2{
+  text-align: center;
+}
+section{
+  text-align: center;
+}
+section button{
+  padding: 15px;
+  margin: 10px; 
+  width: 100px;
+  border-radius: 10px;
+}
+ul{
+  margin: auto;
+  padding-left: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+li{
+  display: inline;
+  padding: 10px;
+  font-weight: bold;
+}
+.solved{
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+li:hover{
+  color: green;
+}
+h1 {
+  font-size: 9vh;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+}
+td {
+  padding: 2%;
+  border: solid 2px black;
+}
+.seleccionado{
+  background-color: green;
+}
+.error{
+  background-color: red;
+}
+.buscando{
+  background-color: yellow;
+}
